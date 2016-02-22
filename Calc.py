@@ -12,26 +12,19 @@ calc = 0
 #Addition
 if(sign == '+'):
 	calc = int(number) + int(number2)
-	print(number + '+' + number2)
-	print(calc)
 
 #Subtraction
 if(sign == '-'):
 	calc = int(number) - int(number2)
 
-	print(number + '-' + number2)
-	print(calc)
-
 #Multiplication
 if(sign == '*'):
 	calc = int(number) * int(number2)
-
-	print(number + '*' + number2)
-	print(calc)
 
 #Division
 if(sign == '/'):
 	calc = int(number)/int(number2)
 
-	print(number + '/' + number2)
-	print(calc)
+#Output
+print(number + sign + number2)
+print(calc)
